@@ -1,5 +1,5 @@
 
-// inWord Function - checks wheather the letter is in the word or not
+// inWord Function - checks whether the letter is in the word or not.
 
 function inWord(letter, word) {
 	if (word.includes(letter)) {
@@ -12,6 +12,8 @@ function inWord(letter, word) {
 console.log(inWord("h", "harry")); // Yes, should be true.
 console.log(inWord("d", "Michael")); // No, should be false.
 
+
+// timesInWord Function - checks how many times the letter appears in the word.
   
 function timesInWord(letter, word) {
   var re = new RegExp(letter,"gi");
